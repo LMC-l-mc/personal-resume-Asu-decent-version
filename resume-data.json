@@ -1,0 +1,171 @@
+{
+  "mode": "source_grounded",
+  "source_title": "梁铭淳个人网站 / GitHub / 学习笔记仓库 / 广外官网（2026-09 汇总）",
+  "profile": {
+    "name": "梁铭淳",
+    "headline": "对计算机与 AI 充满好奇的大一新生｜CS + 商科交叉方向的技术实践者",
+    "location": "中国 · 广州",
+    "contacts": [
+      {
+        "label": "电话",
+        "value": "19867231908"
+      },
+      {
+        "label": "邮箱",
+        "value": "conlmc@icloud.com",
+        "url": "mailto:conlmc@icloud.com"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/LMC-l-mc",
+        "url": "https://github.com/LMC-l-mc"
+      },
+      {
+        "label": "个人网站",
+        "value": "lmc-s-personal-website.netlify.app",
+        "url": "https://lmc-s-personal-website.netlify.app/"
+      },
+      {
+        "label": "学习笔记",
+        "value": "github.com/LMC-l-mc/LMC-s-obsidian-on-github",
+        "url": "https://github.com/LMC-l-mc/LMC-s-obsidian-on-github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "广东外语外贸大学",
+      "program": "广东省高水平大学重点建设高校｜华南地区国际化人才培养基地｜华南地区唯一外语外贸类院校",
+      "degree": "本科在读｜CS + 商科交叉方向",
+      "degree_awarder": "广东外语外贸大学",
+      "dates": "2026.09 - 至今",
+      "bullets": [
+        {
+          "text": "主攻计算机科学基础，同时探索计算机与商科的交叉领域，培养「技术 + 商业」复合思维。",
+          "verification": "user_attested",
+          "source_note": "个人网站 / 经历-广东外语外贸大学 & 自我介绍"
+        },
+        {
+          "text": "学校 Title 取自广外官网《学校简介》与官方招生表述：广东省高水平大学重点建设高校、华南地区国际化人才培养基地、华南地区唯一外语外贸类院校。",
+          "verification": "source_grounded",
+          "source_note": "https://www.gdufs.edu.cn/AboutGDUFS/xxjj2.htm 及央广网《我的大学 · 广外》"
+        }
+      ]
+    }
+  ],
+  "experience": [],
+  "open_source": [
+    {
+      "project": "LMC-s-obsidian-on-github",
+      "role": "学习笔记库 Owner｜0→1",
+      "scope": "基于 Obsidian 的持续学习仓库，学习笔记定期同步至 GitHub，公开记录成长过程",
+      "bullets": [
+        {
+          "text": "Python 学习从 0→1 起步：由 print / 变量 / 数据类型 / 索引切入，覆盖 list / dict / tuple 复合结构，if / elif / else 与 for / while 控制流，format 与 f-string，一路推进到函数作用域、面向对象 class 与封装/继承/多态、open / with 文件读写、try / except 异常处理，并用 unittest 完成 BankAccount 单元测试闭环。",
+          "verification": "source_grounded",
+          "source_note": "学习笔记 / 计算机语言 / python.md（22 个 Part）"
+        },
+        {
+          "text": "通过 .gitignore 排除 workspace 等本地配置，仅把可公开的学习内容纳入版本控制，保障仓库内容干净可控。",
+          "verification": "source_grounded",
+          "source_note": "笔记仓库 commit 记录 / .gitignore"
+        }
+      ],
+      "url": "https://github.com/LMC-l-mc/LMC-s-obsidian-on-github"
+    }
+  ],
+  "projects": [
+    {
+      "name": "跑通工作流",
+      "role": "工作流搭建 Owner｜0→1",
+      "scope": "从抓取到落盘的端到端自动化：RSS 抓取 → AI 摘要 → 文本合并 → 转文件 → 存盘",
+      "bullets": [
+        {
+          "text": "从 0→1 串联一条自动化信息汇聚链路：RSS Read 连接百度 RSS，抓取最新文章列表与正文内容，作为后续处理的原始输入。",
+          "verification": "user_attested",
+          "source_note": "用户口述 / 工作流节点 1：RSS Read"
+        },
+        {
+          "text": "升级为「AI 总结 + 规整」中间层：将抓取到的文章内容馈送给大模型节点，按提示词提炼要点，完成正文 → 结构化摘要的转换。",
+          "verification": "user_attested",
+          "source_note": "用户口述 / 工作流节点 2：Message a model"
+        },
+        {
+          "text": "引入 Code in JavaScript 做文本管道：聚合全部输入，提取纯文本正文，合并后写入专用字段，再交给 Convert to File 转成 txt，最终由 Read/Write Files 落盘到本地文件夹，形成抓取 → 摘要 → 合并 → 转存 → 保存的完整闭环。",
+          "verification": "user_attested",
+          "source_note": "用户口述 / 工作流节点 3-5：Code in JavaScript / Convert to File / Read-Write Files"
+        }
+      ],
+      "keywords": [
+        "RSS 抓取",
+        "LLM 摘要",
+        "Prompt 工程",
+        "JavaScript 文本管道",
+        "文件转换",
+        "本地落盘",
+        "自动化工作流"
+      ]
+    },
+    {
+      "name": "飞机大战小游戏",
+      "role": "个人项目 Owner｜0→1",
+      "scope": "先以 AI 协作产出技术文档，再生成前端小游戏，部署上线可在线试玩",
+      "bullets": [
+        {
+          "text": "从 0→1 发起：先用 AI 编写一份满足需求的代码技术文档，经本人调整后交给智能体生成游戏，形成「需求 → 技术文档 → 生成 → 预览」的 AI 辅助开发闭环。",
+          "verification": "source_grounded",
+          "source_note": "个人网站 / 项目-飞机大战小游戏；学习笔记 / 小项目 / 飞机大战小游戏.md"
+        },
+        {
+          "text": "使用 HTML5 + Canvas 实现 Web 端飞机大战，部署于 Netlify，支持在线试玩与前端控制台调试。",
+          "verification": "source_grounded",
+          "source_note": "https://lmc-love-shooting-aircraft.netlify.app/ 及笔记内联提示"
+        }
+      ],
+      "keywords": [
+        "HTML5",
+        "Canvas",
+        "JavaScript",
+        "AI 辅助开发",
+        "Netlify",
+        "前端小游戏"
+      ]
+    },
+    {
+      "name": "个人主页网站",
+      "role": "站点 Owner｜0→1",
+      "scope": "展示自我介绍的静态个人主页，源码托管 GitHub 并部署到 Netlify",
+      "bullets": [
+        {
+          "text": "从 0→1 搭建个人主页，设置「首页 / 亮点 / 经历 / 项目 / 技能」分区，展示求学经历、飞机大战项目、学习笔记入口与联系方式。",
+          "verification": "source_grounded",
+          "source_note": "https://lmc-s-personal-website.netlify.app/"
+        },
+        {
+          "text": "网页含技能矩阵自我评估与「学习笔记隔段时间上传 GitHub」的持续沉淀说明，作为长期迭代的个人数字名片。",
+          "verification": "source_grounded",
+          "source_note": "个人网站 / 技能矩阵 & 学习笔记区块"
+        }
+      ],
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "静态站点",
+        "Netlify",
+        "GitHub"
+      ]
+    }
+  ],
+  "awards": [],
+  "skills": [
+    "Python（基础语法→OOP→文件与异常→unittest）",
+    "AI 工具协作开发",
+    "HTML / CSS / JavaScript",
+    "Obsidian 知识管理",
+    "Git / GitHub",
+    "Workflow",
+    "计算机基础",
+    "CS + 商科交叉探索"
+  ]
+}
